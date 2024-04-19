@@ -7,6 +7,7 @@ export default function MainScreen({ navigation }) {
         <Button
           title="Go to ChatActivityPage"
           onPress={() => navigation.navigate('ChatActivityPage')}
+          
         />
       </View>
     );
