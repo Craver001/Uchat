@@ -20,12 +20,14 @@ export default function ChatScreen({ navigation }) {
         {/* Messages will be displayed here */}
       </View>
       <View style={styles.inputContainer}>
+
         <TouchableOpacity
           style={styles.sendButton}
           onPress={() => console.log("Pressed")}
         >
           <Feather name="image" size={28} color="black" />
         </TouchableOpacity>
+        
         <TextInput
           style={styles.textbox}
           value={messageText}

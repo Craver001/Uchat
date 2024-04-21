@@ -35,6 +35,8 @@ function ChatHomeScreen() {
 }
 
 export default function Main() {
+
+  
   return (
     <Stack.Navigator>
       <Stack.Screen name="chatUI" component={ChatHomeScreen} />
